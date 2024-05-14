@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Resume_Website",
+			"path": "."
+		},
+		{
+			"name": "Personal-Website",
+			"path": "../../../Personal Website/Personal-Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Resume_Website"
+	}
+}
