@@ -3,7 +3,6 @@
 body{
     margin:0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    z-index:0;
     position: relative;
 }
 .center{
@@ -22,17 +21,13 @@ body{
 }
  /*navigation menu*/ 
  /* nav-div should be visible always using scrolling*/
-.fixed-top{
-
-
-}
 #nav-div{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: white;
-    z-index: 100;
+    z-index: 1000;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
@@ -63,6 +58,9 @@ body{
         color: black;
         font-weight: bold;
     }
+}
+#nav-div li a:hover{
+    color: blue;
 }
 #name{
     color: black;
@@ -228,9 +226,9 @@ body{
 
     }
 
-.p-5{
+.social-icons{
     font-size: medium;
-    margin: 10px;
+    margin: 6px;
     text-align: center;
     a{
         text-decoration: none;
@@ -243,13 +241,13 @@ body{
     }
     display: inline;
 }
-.p-5 a{
+.social-icons a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     margin: 5px;
 }
-.p-5 a:hover{
+.social-icons a:hover{
     color: blue;
 }
 
