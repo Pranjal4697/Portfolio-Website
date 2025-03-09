@@ -12,7 +12,8 @@ const skillsData: SkillCategory = {
   "Programming Languages": [
     "Python",
     "C++",
-    "Javascript"
+    "Javascript",
+    "SQL"
   ] as const,
   "Web Technologies": [
     "Flask",
@@ -24,7 +25,7 @@ const skillsData: SkillCategory = {
    
   ] as const,
   "Databases & Tools": [
-    "SQL",
+    "MySQL",
     "Git",
     "Docker",
   ] as const,
