@@ -11,31 +11,27 @@ type SkillCategory = {
 const skillsData: SkillCategory = {
   "Programming Languages": [
     "Python",
-    "JavaScript",
-    "TypeScript",
     "C++",
+    "Javascript"
   ] as const,
   "Web Technologies": [
-    "React",
+    "Flask",
     "Next.js",
     "Node.js",
-    "Express",
+    "Express.js",
     "HTML5",
     "CSS3",
    
   ] as const,
   "Databases & Tools": [
     "SQL",
-    "MongoDB",
-    "Redis",
     "Git",
     "Docker",
   ] as const,
   "Other Skills": [
-    "RESTful APIs",
-    "GraphQL",
-    "Agile/Scrum",
-    "CI/CD",
+    "Problem Solving",
+    "Quick Learning",
+    "Team Work",
   ] as const,
 };
 
